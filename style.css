@@ -1,0 +1,340 @@
+*{
+    font-family: "Jost", sans-serif;
+    font-weight: 400;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding:25px;
+    padding-left: 50px;
+    padding-right: 50px;
+    height: 90px;
+    background-color: white;
+}
+
+#navv{
+    position: sticky;
+    top: 0%;
+    z-index: 1;
+}
+
+.menubar a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    line-height: 3;
+    font-weight: 400;
+    word-spacing: 10px;
+    font-size: 15px;
+}
+.call a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    line-height: 3;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+nav h1{
+     line-height: 1.25;
+     padding-right:50px;
+     font-size: 30px;
+     word-spacing:2.5px;
+     letter-spacing: 1.5px; 
+    
+}
+
+.banner{
+    background-image: url("./Women_Montsouris_WW_HP_Push_20240726_DI3.webp");
+
+    width: 100%;
+    height: 875px;
+    /* background-attachment: fixed ;
+    height: 100vh; */
+    
+    background-repeat: no-repeat;
+   
+    box-shadow: 0px 0px 100px black inset bottom;
+    
+}
+
+
+
+.bannerp{
+    position: absolute;
+    top:800px;
+    left: 700px;
+    color: white;
+    line-height:35px;
+    
+}
+
+#t1{
+    color: white;
+    text-decoration: none;
+    text-shadow: 2px 2px 2px grey;
+    font-size: 12px;
+
+}
+#t2{
+    color: white;
+    text-decoration: none;
+    text-shadow: 2px 2px 2px grey;
+    font-size: 30px;
+    
+
+}
+#t3{
+    color: white;
+    
+    text-shadow: 2px 2px 2px grey;
+    
+
+
+}
+
+#he{
+    padding: 50px;
+    font-size: 30px;
+
+}
+
+.row{
+    
+    height: 500px;
+    text-align: center;
+    display: flex;
+    column-gap: 10px; 
+     /* justify-content: space-around;  */
+    padding-left:119px;
+    padding-right:119px;
+}
+
+.col{
+    width: 335px;
+    height:425px;
+    text-align: center;
+    padding: 0%;
+    margin: 0%;
+    
+    
+    
+    
+    
+    
+    
+    
+}
+
+.col img{
+    height: 425px;
+    width: 335px;
+    cursor: pointer;
+
+    
+}
+
+.cont{
+    color: black;
+    line-height:40px;
+    padding-bottom: 50px;
+    background-color: transparent;
+}
+
+#t4{
+    color: black;
+    text-decoration: none;
+    
+    font-size: 10px;
+
+}
+#t5{
+    color: black;
+    text-decoration: none;
+    
+    font-size: 30px;
+    
+
+}
+#t6{
+    color: black;
+
+    
+
+    
+
+
+}
+.secimg{
+    background-image: url("https://ap.louisvuitton.com/images/is/image//content/dam/lv/editorial-content/New-Homepage/2024/central/collections/women_fw24/Women_FW24_Preorders_WW_HP_Push_20240726_DI3.jpg?wid=4096");
+    padding-top: 50px;
+    background-attachment: fixed ;
+    height: 100vh;
+}
+
+.paral1{
+    padding-top: 50px;
+}
+
+#col1{
+    width: 335px;
+    height:425px;
+    line-height: 5px;
+    text-align: left; 
+    
+    
+    
+    
+    
+   
+}
+
+/* #row1{
+    
+    height: 300px;
+    width:100%;
+    
+    display: flex;
+    
+    /* justify-content: space-around;   */
+    /* padding-left:119px;
+    padding-right:119px; */
+
+
+#prc{
+    color: grey;
+}
+
+#img1{
+    height: 400px;
+    width: 425px;
+    
+}
+
+.thirdimg{
+    background-image: url("https://ap.louisvuitton.com/images/is/image//content/dam/lv/editorial-content/New-Homepage/2024/central/collections/women_slg/Women_SLG_Focus_Option2_WW_HP_Push_20240809_DI3.jpg?wid=4096");
+    padding-top: 50px;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+#ser{
+    font-size: 35px;
+}
+
+#ser1{
+    color: grey;
+}
+
+.txt1{
+    padding-left: 120px;
+}
+
+#gft .row{
+    display: flex;
+    padding-left: 131px;
+    padding-right: 131px;
+}
+
+#gft img{
+    width: 450px;
+    height: 540px;
+    
+   
+
+}
+
+#gft .col{
+    padding-left: -30px;
+
+}
+
+#gft a{
+    color: black;
+}
+
+#gfm{
+    padding-left: 10px;
+}
+
+#ftr p{
+    text-align: start;
+    font-size: 13px;
+}
+
+#ftr h6{
+    font-weight: 300;
+    font-size: 10px;
+    text-align: start;
+    padding-bottom: 20px;
+
+}
+
+#ftr p a{
+    color: black;
+}
+
+#ftr .row{
+    height: 300px;
+}
+
+#ftr2 img{
+    height: 15px;
+    width: 15px;
+    padding-bottom: 5px;
+    text-align: start;
+    
+}
+
+#ftr2 a{
+    color: black;
+    font-size: 14px;
+    padding: 0%;
+    margin: 0%;
+   
+}
+
+#ftr2 h5{
+    font-size: 14px;
+    font-weight: 400;
+    display: flex;
+    padding-left:100px; 
+}
+
+#ftr2 .row{
+    width: 100%;
+    padding: 0%;
+    margin: 0%;
+    height: 320px;
+
+}
+
+
+
+#ftr2 p{
+    font-size: 11px;
+    color: grey;
+    line-height: 25px;
+    
+}
+
+#ftr2 .col{
+    width: 200px;
+    text-align: start;
+    padding-left: 125px;
+
+    
+}
+
+#ftr2 h6{
+    font-size: 11px;
+    color: grey;
+    line-height: 25px;
+    
+}
+
+#end h2{
+    font-size:25px;
+}
